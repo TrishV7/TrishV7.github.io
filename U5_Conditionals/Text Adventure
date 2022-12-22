@@ -1,0 +1,11 @@
+let spaceship_rocket_plane = prompt("To save the prince from the aliens who abducted him, do you want to travel to the other planet in a spaceship(1), rocket(2), or plane(3) ? ")
+
+
+if(spaceship_rocket_plane == 1) {
+    alert("Oops, the spaceship's engine is really damaged. It did not have power to take you to the planet. Game failed... ");
+   
+} else if(spaceship_rocket_plane == 2){
+    alert("Yay, great selection! This rocket is the perfect way to travel. You have won the battle against the aliens and successfully saved the prince. Congrats! You Win, Game Over !");
+
+    } else 
+        alert("Oops, the plane was too weak and could not withstand the high pressure conditions in space. Your plane has exploded and never reached the other planet. Game failed..."); 
